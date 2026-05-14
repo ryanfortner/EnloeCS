@@ -1,0 +1,14 @@
+public class MyProgram
+{
+    public static void main(String[] args)
+    {
+        Human bob = new Human("Bob", 12, 12, 12);
+        bob.addOneYear();
+        bob.loseTenPounds();
+        System.out.println(bob.toString());
+        System.out.println(bob.getName());
+        System.out.println(bob.getWeight());
+        System.out.println(bob.getHeight());
+        System.out.println(bob.getAge());
+    }
+}
